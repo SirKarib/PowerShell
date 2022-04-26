@@ -1,2 +1,2 @@
-# Powershell
-My config Powershell
+# PowerShell
+My PowerShell config
