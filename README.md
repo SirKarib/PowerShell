@@ -1,6 +1,10 @@
 # PowerShell Config for Windows Terminal
 
 ### Installation
+Change ExecutionPolicy
+```sh
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
+```
 
 Install oh-my-posh
 ```sh
