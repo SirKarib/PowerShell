@@ -12,9 +12,9 @@ Install oh-my-posh
 winget install oh-my-posh
 ```
 
-Install manager PowershellGet
+Install manager PowerShellGet
 ```sh
-Install-Module PowershellGet -Force
+Install-Module PowerShellGet -Force
 ```
 
 Install posh-git
