@@ -12,6 +12,11 @@ Install oh-my-posh
 winget install oh-my-posh
 ```
 
+Check installed Git
+```sh
+git --version
+```
+
 Install manager PowerShellGet
 ```sh
 Install-Module PowerShellGet -Force
