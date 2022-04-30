@@ -6,6 +6,12 @@ Change ExecutionPolicy
 ```sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
 ```
+
+Install oh-my-posh
+```sh
+winget install oh-my-posh
+```
+
 Install manager PowershellGet
 ```sh
 Install-Module PowershellGet -Force
@@ -19,11 +25,6 @@ PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 To enable posh-git to be available in all your PowerShell
 ```sh
 Add-PoshGitToProfile -AllHosts
-```
-
-Install oh-my-posh
-```sh
-winget install oh-my-posh
 ```
 
 
@@ -42,5 +43,3 @@ PowerShellGet\Update-Module posh-git
 ## Customization
 - Put .custom.omp.json in ~ (home folder)
 - Copy / paste code from ps1 file
-
-
