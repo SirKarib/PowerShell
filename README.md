@@ -16,11 +16,6 @@ Install posh-git
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 ```
 
-For update posh-git
-```sh
-PowerShellGet\Update-Module posh-git
-```
-
 To enable posh-git to be available in all your PowerShell
 ```sh
 Add-PoshGitToProfile -AllHosts
@@ -31,10 +26,18 @@ Install oh-my-posh
 winget install oh-my-posh
 ```
 
+
+## Updating
 For update oh-my-posh
 ```sh
 winget upgrade oh-my-posh
 ```
+
+For update posh-git
+```sh
+PowerShellGet\Update-Module posh-git
+```
+
 
 ## Customization
 - Put .custom.omp.json in ~ (home folder)
