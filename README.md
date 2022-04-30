@@ -1,6 +1,6 @@
 # PowerShell Config for Windows Terminal
 
-### Installation
+## Installation
 Change ExecutionPolicy
 
 ```sh
@@ -35,7 +35,7 @@ For update oh-my-posh
 winget upgrade oh-my-posh
 ```
 
-### Customization
+## Customization
 - Put .custom.omp.json in ~ (home folder)
 - Copy / paste code from ps1 file
 
