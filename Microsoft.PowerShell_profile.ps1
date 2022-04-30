@@ -3,10 +3,6 @@ Import-Module oh-my-posh
 Set-PoshPrompt -Theme jblab_2021
 
 
-function profile {
+function cfg {
     notepad $PROFILE
-}
-
-function go {
-    cd D:\Projects\
 }
