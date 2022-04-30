@@ -8,7 +8,7 @@
 winget install oh-my-posh
 ```
 
-- For update oh-my-posh
+For update oh-my-posh
 ```sh
 winget upgrade oh-my-posh
 ```
