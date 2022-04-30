@@ -1,21 +1,22 @@
 # PowerShell Config for Windows Terminal
 
 ## Installation
-Change ExecutionPolicy
 
+Change ExecutionPolicy
 ```sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
 ```
-
-
+Install manager PowershellGet
 ```sh
 Install-Module PowershellGet -Force
 ```
 
+Install posh-git
 ```sh
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 ```
 
+For update posh-git
 ```sh
 PowerShellGet\Update-Module posh-git
 ```
