@@ -2,8 +2,27 @@
 
 ### Installation
 Change ExecutionPolicy
+
 ```sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
+```
+
+
+```sh
+Install-Module PowershellGet -Force
+```
+
+```sh
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+```
+
+```sh
+PowerShellGet\Update-Module posh-git
+```
+
+To enable posh-git to be available in all your PowerShell
+```sh
+Add-PoshGitToProfile -AllHosts
 ```
 
 Install oh-my-posh
