@@ -1,6 +1,5 @@
-# PowerShell
-My PowerShell config.
+# PowerShell Config for Windows Terminal
 
-Installation:
-Put .custom.omp.json in ~ folder.
-Copy / paste code from ps1 file
+### Installation:
+- Put .custom.omp.json in ~ folder
+- Copy / paste code from ps1 file
