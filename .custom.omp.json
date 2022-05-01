@@ -28,7 +28,7 @@
         {
           "foreground": "#906cff",
           "style": "powerline",
-          "template": "({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}python-{{ end }}{{ .Full }}{{ end }})",
+          "template": "({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}python-{{ end }}{{ .Full }}{{ end }}) ",
           "type": "python"
         },
         {
