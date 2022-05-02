@@ -4,7 +4,7 @@
 
 1. Download [Nerd Font](https://www.nerdfonts.com/font-downloads)
 
-2. Download Windows Terminal
+2. Download [Windows Terminal](https://github.com/microsoft/terminal)
 
 3. Change ExecutionPolicy
 ```sh
