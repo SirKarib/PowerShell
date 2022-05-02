@@ -2,7 +2,7 @@
 
 ## Installation
 
-[Download](https://www.nerdfonts.com/font-downloads) Nerd Font
+Download [Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 Change ExecutionPolicy
 ```sh
