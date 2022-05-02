@@ -2,6 +2,9 @@
 
 ## Installation
 
+Download Nerd Font
+https://www.nerdfonts.com/font-downloads
+
 Change ExecutionPolicy
 ```sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
