@@ -2,8 +2,8 @@
 
 ## Installation
 
-Download Nerd Font
-https://www.nerdfonts.com/font-downloads
+[I'm an inline-style link](https://www.google.com)
+[Download](https://www.nerdfonts.com/font-downloads) Nerd Font
 
 Change ExecutionPolicy
 ```sh
