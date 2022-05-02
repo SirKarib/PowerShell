@@ -2,46 +2,46 @@
 
 ## Installation
 
-Download [Nerd Font](https://www.nerdfonts.com/font-downloads)
+1. Download [Nerd Font](https://www.nerdfonts.com/font-downloads)
 
-Change ExecutionPolicy
+2. Change ExecutionPolicy
 ```sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
 ```
 
-Install oh-my-posh
+3. Install oh-my-posh
 ```sh
 winget install oh-my-posh
 ```
 
-Check installed Git
+4. Check installed Git
 ```sh
 git --version
 ```
 
-Install manager PowerShellGet
+5. Install manager PowerShellGet
 ```sh
 Install-Module PowerShellGet -Force
 ```
 
-Install posh-git
+6. Install posh-git
 ```sh
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 ```
 
-To enable posh-git to be available in all your PowerShell
+7. To enable posh-git to be available in all your PowerShell
 ```sh
 Add-PoshGitToProfile -AllHosts
 ```
 
 
 ## Updating
-For update oh-my-posh
+8. For update oh-my-posh
 ```sh
 winget upgrade oh-my-posh
 ```
 
-For update posh-git
+9. For update posh-git
 ```sh
 PowerShellGet\Update-Module posh-git
 ```
